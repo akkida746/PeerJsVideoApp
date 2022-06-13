@@ -17,4 +17,9 @@ int main(){
     Human human; // Declaring class object
     human.name = "Jack";
     cout << human.name;
+
+    //Dynamically allocation class object
+    Human* h = new Human();
+    h->name = "Jill";
+    cout << h->name;
 }
