@@ -4,15 +4,17 @@
 
 using namespace std;
 
+class Human{
+    public: string name;
+};
+
 int main(){
     vector<string> msg {"Hello","Akash"};
     for(const string& word: msg){
         cout << word << " ";
     }
     cout << endl;
-    Human human = new Human();
+    Human human; // Declaring class object
     human.name = "Jack";
+    cout << human.name;
 }
-class Human{
-    string name;
-};
