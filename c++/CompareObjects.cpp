@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "greeting.h"
 
 using namespace std;
 
@@ -22,4 +23,6 @@ int main(){
     fish = &tuna;
     fish->swim();
     cout << "Completed";
+
+    cout << greeting();
 }
